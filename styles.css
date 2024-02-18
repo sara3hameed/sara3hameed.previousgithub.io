@@ -1,0 +1,82 @@
+/* Navigation Bar Styles */
+nav {
+    background-color: #ffcccc; /* Light pink */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+nav ul li a:hover {
+    background-color: #ff9999; /* Medium pink */
+}
+
+nav ul li.active a {
+    background-color: #ff6666; /* Dark pink */
+    color: #fff;
+}
+
+/* Global Styles */
+body {
+    background-color: #fff4f2; /* Very light pink */
+}
+
+/* Homepage Styles */
+.homepage-header {
+    background-color: #ffcccc; /* Light pink */
+    color: #ff69b4; /* Hot pink */
+    padding: 20px;
+}
+
+#homepage p {
+    color: #ff9999; /* Medium pink */
+}
+
+#homepage h2 {
+    color: #ff1d8e; /* Lavender purple */
+}
+
+#homepage .what-to-expect {
+    color: #ff6ec7; /* New paragraph color */
+}
+
+/* About Me Page Styles */
+.about-me-heading {
+    color: #ff6666; /* Dark pink */
+}
+
+#about-me-intro {
+    color: #ff9999; /* Medium pink */
+}
+
+#favorite-hobby {
+    color: #ffcccc; /* Light pink */
+}
+
+#about-me p:nth-of-type(2) {
+    color: #E70045; /* Second paragraph color */
+}
+
+/* Contact Me Page Styles */
+.contact-label {
+    background-color: #ffcccc; /* Light pink */
+}
+
+.contact-field {
+    background-color: #ff9999; /* Medium pink */
+}
